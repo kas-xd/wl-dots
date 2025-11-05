@@ -1,5 +1,6 @@
 ## Stack
 - swaywm, swayidle, swaylock, swaybg
+- hyprland, hypridle, hyprlock, hyprpaper
 - waybar
 - zsh
 - kitty terminal
