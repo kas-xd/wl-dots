@@ -7,5 +7,5 @@
 - mako notification daemon
 - fuzzel
 - tmux
-- neovim v0.12
+- neovim
 - zathura
