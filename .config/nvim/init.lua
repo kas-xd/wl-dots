@@ -40,7 +40,6 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Focus right' })
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Focus lower' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Focus upper' })
 
--- fast nav (vibecoded)
 vim.keymap.set('n', '<A-h>', '5h', { noremap = true, silent = true })
 vim.keymap.set('n', '<A-j>', '5j', { noremap = true, silent = true })
 vim.keymap.set('n', '<A-k>', '5k', { noremap = true, silent = true })
@@ -360,7 +359,6 @@ require('lazy').setup({
   -- kickstart internal plugins
   require 'kickstart.plugins.indent_line',
 
-  -- your vibecoded overrides (oil, git-blame, undotree, etc)
   { import = 'custom.plugins' },
 
 }, {
