@@ -1,0 +1,5 @@
+requrements:
+basic utils: git, make, unzip, gcc
+ripgrep, fd-find
+clipboard tool: xclip, wl-clipboard
+nerd font
