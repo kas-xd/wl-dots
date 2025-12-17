@@ -318,12 +318,12 @@ require('lazy').setup({
     },
   },
 
-  { -- gruvbox
-    'ellisonleao/gruvbox.nvim',
+  { -- colorscheme
+    'vague-theme/vague.nvim',
     priority = 1000,
     config = function()
-      require('gruvbox').setup({ transparent_mode = true })
-      vim.cmd.colorscheme 'gruvbox'
+      require('vague').setup({ transparent_mode = true })
+      vim.cmd.colorscheme 'vague'
     end
   },
 
