@@ -29,19 +29,19 @@ tooltip {
 #wireplumber{
   margin: 2px 2px 0px 0px;
   padding: 2px 8px;
-  color: #efe1d3;
+  color: #cdcdcd;
 }
 #workspaces button {
-  color: #efe1d3;
+  color: #cdcdcd;
   padding: 0px 10px;
 }
 
 #workspaces button.focused {
-  background-color: #efe1d3;
-  color: #202020;
+  background-color: #cdcdcd;
+  color: #141415;
 }
 
 #workspaces button.active {
-  background-color: #202020;
-  color: #efe1d3;
+  background-color: #141415;
+  color: #cdcdcd;
 }

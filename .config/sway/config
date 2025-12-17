@@ -202,8 +202,8 @@ bindsym $mod+r mode "resize"
     bindsym $mod+Shift+S exec grim -g "$(slurp)" - | wl-copy
     bindsym Print exec grim 
 
-client.focused #000000 #efe1d3 #000000 #202020 #efe1d3
-client.unfocused #202020 #202020 #efe1d3 #202020 #202020
+client.focused #000000 #cdcdcd #000000 #141415 #cdcdcd
+client.unfocused #141415 #141415 #cdcdcd #141415 #141415
 
 default_border pixel 2
 
