@@ -9,12 +9,12 @@
 }
 
 window#waybar {
-  background: #202020;
-  color: #efe1d3;
+  background: #141415;
+  color: #cdcdcd;
 }
 
 tooltip {
-  background-color: #202020;
+  background-color: #141415;
 }
 
 #bluetooth,
