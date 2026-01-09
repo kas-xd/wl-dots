@@ -9,3 +9,6 @@
 - tmux
 - neovim
 - zathura
+
+## Showcase
+![image](https://raw.githubusercontent.com/kas-xd/wl-dots/refs/heads/main/screenshot.png)
