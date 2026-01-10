@@ -1,19 +1,65 @@
-# font
-set font "JetBrains Mono Nerd Font"
+# --- General Settings ---
+set font "Iosevka Nerd Font Propo 14"
 
-# colors
-set index-bg "#202020"
-set index-fg "#d2d2d2"
-set index-active-bg "#bf5151"
-set index-active-fg "#202020"
+# Copy selected text to system clipboard automatically
+set selection-clipboard clipboard
 
-set inputbar-bg "#bf5151"
-set inputbar-fg "#202020"
+# Rendering and Performance
+set render-loading "true"
+set scroll-step 50
+set scroll-full-overlap 0.01
+set flush-timeout 10
 
-set statusbar-fg "#d2d2d2"
-set statusbar-bg "#202020"
+# UI Behavior
+set adjust-open "width"          
+set window-title-home-tilde true 
+set statusbar-basename true     
 
-set recolor-lightcolor "#202020"
-set recolor-darkcolor "#d2d2d2"
+# Recolor settings (PDF page colors)
 set recolor "true"
-set recolor-keephue "true"
+set recolor-keephue "true"     
+
+# --- Vague Colorscheme ---
+
+# Lightcolor is the background, Darkcolor is the text
+set recolor-lightcolor      "#141415" 
+set recolor-darkcolor       "#cdcdcd"
+
+# Default Background/Foreground
+set default-bg              "#141415"
+set default-fg              "#cdcdcd"
+
+# Statusbar
+set statusbar-bg            "#252530"
+set statusbar-fg            "#cdcdcd"
+
+# Inputbar (Command line)
+set inputbar-bg             "#141415"
+set inputbar-fg             "#f3be7c" 
+
+# Index Mode (Table of Contents)
+set index-bg                "#141415"
+set index-fg                "#cdcdcd"
+set index-active-bg         "#6e94b2"
+set index-active-fg         "#141415"
+
+# Search Highlighting
+set highlight-color         "#f3be7c"
+set highlight-active-color  "#d8647e"
+set highlight-fg            "#141415"
+
+# Notifications (Errors, Warnings)
+set notification-error-bg   "#d8647e"
+set notification-error-fg   "#141415"
+set notification-warning-bg "#f3be7c"
+set notification-warning-fg "#141415"
+set notification-bg         "#252530"
+set notification-fg         "#7fa563"
+
+# Tab Completion (Command suggestions)
+set completion-bg           "#252530"
+set completion-fg           "#6e94b2"
+set completion-highlight-bg  "#6e94b2"
+set completion-highlight-fg  "#141415"
+set completion-group-bg     "#252530"
+set completion-group-fg     "#606079"
